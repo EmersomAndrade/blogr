@@ -1,0 +1,18 @@
+button {
+    border-radius: 30px;
+    padding: 8px 18px;
+    border: 0;
+    color: #ffff;
+    background: transparent;
+    font-size: 1.1em;
+    cursor: pointer;
+
+    &.bg-true {
+        background: #ffff;
+        color: #df0933;
+    }
+
+    &.border {
+        border: 1px solid #ffff;
+    }
+}
